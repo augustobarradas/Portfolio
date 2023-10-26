@@ -55,6 +55,7 @@ body {
 
 .container__imagem--lateral {
     width: 150px;
+    border-radius: 50%;
 }
 
 .container__titulo {
