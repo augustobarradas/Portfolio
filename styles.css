@@ -144,7 +144,6 @@ body {
     display: flex;
     background: url("./img/backgroundImage.svg");
     width: 970px;
-    height: 467px;
     margin-left: 1.5em;
     flex-direction: column;
 }
@@ -167,7 +166,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3em;
+    padding: 3em 0 3em 3em;
 }
 
 .menu__central--bannner-texto {
@@ -195,6 +194,7 @@ body {
 
 .menu__central--container {
     display: flex;
+    height: 467px;
 }
 
 .menu__central--titulo {
@@ -209,6 +209,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 970px;
+    background-color: var(--cor-de-fundo);
 }
 
 .menu__central--info {
@@ -235,10 +236,7 @@ body {
     flex-wrap: wrap;
     width: 970px;
     justify-content: space-between;
-}
-
-.box--itens {
-    margin-top: 1em;
+    background-color: var(--cor-de-fundo);
 }
 
 .menu__central--itens--image1 {
@@ -270,52 +268,6 @@ body {
 .menu__central--itens--order {
     color: var(--amarelo1);
     text-decoration: none;
-}
-
-.menu__central--planos--padrao {
-    background-color: white;
-    width: 310px;
-    height: 609px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.menu__central--planos--itens {
-    display: flex;
-    align-items: center;
-    padding: 1em 0 0 0;
-}
-
-.menu__central--planos--titulos {
-    font-size: 24px;
-    font-weight: 600;
-    padding: 3em 0 1em 0;
-}
-
-.menu__central--planos--preco {
-    font-size: 32px;
-    font-weight: 700;
-    padding-bottom: 0.5em;
-}
-
-.menu__central--planos--info {
-    text-align: center;
-    padding-bottom: 1em;
-}
-
-.menu__central--planos--container {
-    display: flex;
-    flex-direction: column;
-    width: 253px;
-}
-
-.menu__central--planos--texto {
-    padding-left: 1em;
-}
-
-.menu__central--planos--order {
-    padding-top: 0.5em;
 }
 
 .texto__cinza {
@@ -833,4 +785,12 @@ body {
 
 #button {
     display: block
+}
+
+.menu__central--fotoperfil {
+    width: 100%;
+    height: 100%;
+    background-image: url("./img/imagemPerfilSemFundo.png");
+    background-size: cover;
+    background-position: center;
 }
