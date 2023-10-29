@@ -373,7 +373,7 @@ body {
 .menu__central--courses {
     background: white;
     width: 970px;
-    height: 632px;
+    height: 210px;
     padding: 3em;
 }
 
@@ -401,6 +401,11 @@ body {
     width: 234px;
 }
 
+.menu__central--courses--school--titulo {
+    font-size: 18px;
+}
+
+
 .menu__central--courses--option {
     display: flex;
     width: 904px;
@@ -410,6 +415,14 @@ body {
 
 .menu__central--courses__image {
     margin-left: 1em;
+    height: 18px;
+    width: 111px;
+    background-color: var(--amarelo__background);
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .menu__central--courses--linhacinza {
@@ -525,8 +538,16 @@ body {
 }
 
 .menu__central--contact--complete--send {
-    width: 521px;
-    align-self: center;
+    width: 159px;
+    height: 35px;
+    background-color: var(--amarelo__background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 1.5em;
+
 }
 
 .menu__central--contact--container--title {
