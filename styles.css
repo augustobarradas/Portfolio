@@ -815,3 +815,124 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+@media screen and (min-width: 390px) {
+    .container__principal{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu__central{
+        margin-left: 0;
+        width: 337px;
+        margin-top: 1em;
+    }
+
+    .menu__central--textolateral{
+        padding: 1.5em 0 1.5em 1.0em;
+    }
+
+    .menu__central--bannner, .frontend__amarelo, .frontend__amarelo--complemento {
+        font-size: 20px;
+        width: auto;
+    }
+
+    .menu__central--bannner{
+        padding-bottom: 0.1em;
+    }
+
+    .menu__central--bannner-texto{
+        width: auto;
+        font-size: 12px;
+    }
+
+    .frontend__amarelo{
+        width: max-content;
+    }
+
+    .frontend__amarelo--complemento{
+        padding-left: 0.1em;
+    }
+
+    .button__hireme{
+        width: 70%;
+    }
+
+    .menu__central--fotoperfil{
+        height: 68%;
+        align-self: end;
+        margin-right: 3.2em;
+    }
+
+    .menu__central--container{
+        width: 390px;
+        height: 230px;
+    }
+
+    .menu__lateral{
+        height: auto;
+    }
+
+    .menu__central--myservices{
+        width: 100%;
+    }
+
+    .menu__central--info{
+        width: 100%;
+    }
+
+
+
+    .menu__central--itens{
+        flex-direction: column;
+        width: auto;
+    }
+
+    .menu__central--itens--box{
+        width: 337px;
+        margin-bottom: 1em;
+    }
+
+    .menu__central--recommendations{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu__central--recommendations--info{
+        margin-top: 1em;
+        display: flex;
+        align-items: center;
+        width: 337px;
+    }
+
+    .menu__central--courses{
+        padding: 2em;
+        width: 337px;
+    }
+
+    .menu__central--courses--option{
+        flex-direction: column;
+        width: auto;
+    }
+
+    .menu__central--courses--option2{
+        width: auto;
+    }
+
+
+
+    .menu__central--courses--option3{
+        padding: 1em 0;
+        width: 337px;
+    }
+
+    .menu__central--courses--txt {
+        width: 337px;
+    }
+
+    .menu__central--courses--description{
+        width: auto;
+    }
+
+
+}
