@@ -878,8 +878,6 @@ body {
         width: 100%;
     }
 
-
-
     .menu__central--itens{
         flex-direction: column;
         width: auto;
@@ -915,9 +913,7 @@ body {
     .menu__central--courses--option2{
         width: auto;
     }
-
-
-
+    
     .menu__central--courses--option3{
         padding: 1em 0;
         width: 337px;
@@ -1019,5 +1015,55 @@ body {
         display: none;
     }
 
+}
 
+@media screen and (max-width: 768px) {
+    .menu__central {
+        width: 480px;
+    }
+    
+    .menu__central--container {
+        width: 480px;
+    }
+
+    .menu__central--textolateral{
+        padding: 0.5em;
+        width: 240px;
+    }
+
+    .menu__central--fotoperfil{
+        width: 240px;
+        height: 40%;
+        display: flex;
+        align-self: end;
+    }
+
+    .menu__central--banner{
+        font-size: 30px;
+    }
+
+    .frontend__amarelo--complemento{
+        font-size: 30px;
+    }
+
+    .frontend__amarelo{
+        font-size: 30px;
+    }
+
+    .menu__central--banner{
+        width: 200px;
+        font-size: 30px;
+    }
+
+    .menu__central--bannner-texto{
+        font-size: 15px;
+    }
+
+    .menu__central--segundalinha {
+        width: 300px;
+    }
+
+    .menu__central--container{
+        height: 340px;
+    }
 }
