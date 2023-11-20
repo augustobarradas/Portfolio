@@ -49,9 +49,7 @@ body {
     align-items: center;
     display: flex;
     margin-top: 2em;
-
 }
-
 
 .container__imagem--lateral {
     width: 150px;
@@ -152,9 +150,10 @@ body {
     width: 154px;
 }
 
-.menu__central--bannner {
+.menu__central--banner {
     font-size: 48px;
     width: 500px;
+    font-weight: bold;
 }
 
 .menu__central--texto {
@@ -169,14 +168,10 @@ body {
     padding: 3em 0 3em 3em;
 }
 
-.menu__central--bannner-texto {
+.menu__central--banner-texto {
     padding: 2em 0;
     color: var(--cinza);
     width: 424px;
-}
-
-.menu__central--bannner {
-    font-weight: bold;
 }
 
 .menu__central--segundalinha {
@@ -227,8 +222,7 @@ body {
     height: 225px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .menu__central--itens {
@@ -405,13 +399,10 @@ body {
     font-size: 18px;
 }
 
-
 .menu__central--courses--option {
     display: flex;
     width: 904px;
 }
-
-
 
 .menu__central--courses__image {
     margin-left: 1em;
@@ -547,7 +538,6 @@ body {
     text-decoration: none;
     color: black;
     margin-left: 1.5em;
-
 }
 
 .menu__central--contact--container--title {
@@ -609,7 +599,6 @@ body {
 }
 
 .menu__central--map {
-   
     margin: 4em 0;
 }
 
@@ -634,7 +623,6 @@ body {
 .menu__central--rodape--direitos--texto {
     font-size: 15px;
     text-align: center;
-    
 }
 
 .menu__direita--itens {
@@ -676,7 +664,6 @@ body {
     align-items: center;
     display: flex;
     margin-top: 2em;
-
 }
 
 .menu__direita--itens--home--icones--cinza {
@@ -757,7 +744,8 @@ body {
     position: absolute;
     color: white;
     font-size: 12px;
-}	
+}
+
 .balao{
     background: black; 
     position:relative; 
@@ -829,16 +817,16 @@ body {
         padding: 1.5em 0 1.5em 1.0em;
     }
 
-    .menu__central--bannner, .frontend__amarelo, .frontend__amarelo--complemento {
+    .menu__central--banner, .frontend__amarelo, .frontend__amarelo--complemento {
         font-size: 20px;
         width: auto;
     }
 
-    .menu__central--bannner{
+    .menu__central--banner{
         padding-bottom: 0.1em;
     }
 
-    .menu__central--bannner-texto{
+    .menu__central--banner-texto{
         width: auto;
         font-size: 12px;
     }
@@ -913,7 +901,7 @@ body {
     .menu__central--courses--option2{
         width: auto;
     }
-    
+
     .menu__central--courses--option3{
         padding: 1em 0;
         width: 337px;
@@ -1040,6 +1028,7 @@ body {
 
     .menu__central--banner{
         font-size: 30px;
+        width: 200px;
     }
 
     .frontend__amarelo--complemento{
@@ -1050,12 +1039,7 @@ body {
         font-size: 30px;
     }
 
-    .menu__central--banner{
-        width: 200px;
-        font-size: 30px;
-    }
-
-    .menu__central--bannner-texto{
+    .menu__central--banner-texto{
         font-size: 15px;
     }
 
