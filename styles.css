@@ -1049,5 +1049,35 @@ body {
 
     .menu__central--container{
         height: 340px;
+        padding-left: 1em;
+    }
+
+    .menu__direita{
+        display: none;
+    }
+
+    .menu__central--myservices{
+        width: auto;
+    }
+
+    .menu__central--titulo{
+        padding: 1em;
+    }
+
+    .menu__central--itens {
+        width: auto;
+        justify-content: center;
+    }
+
+    .menu__central--itens--box{
+        margin-bottom: 1em;
+    }
+
+    .menu__central--recommendations--info{
+        width: 260px;
+    }
+
+    .menu__central--recommendations--info--class{
+        width: auto;
     }
 }
