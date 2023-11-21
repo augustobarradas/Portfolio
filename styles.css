@@ -445,6 +445,7 @@ body {
     width: 970px;
     padding-bottom: 3em;
     justify-content: center;
+    align-items: center;
 }
 
 .menu__central--lista--item--1 {
@@ -1006,6 +1007,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    
     .menu__central {
         width: 480px;
     }
@@ -1073,11 +1075,58 @@ body {
         margin-bottom: 1em;
     }
 
+    .menu__central--recommendations{
+        width: 500px;
+        margin-right: 63px;
+        justify-content: end;
+    }
+
     .menu__central--recommendations--info{
         width: 260px;
     }
 
     .menu__central--recommendations--info--class{
+        width: 210px;
+    }
+
+    .menu__central--recommendations--texto {
+        font-size: 16px;
         width: auto;
     }
+
+    .menu__central--education{
+        display: flex;
+        justify-content: center;
+        width: 768px;
+    }
+
+    .menu__central--myservices--educacion{
+        width: 500px;
+        margin-left: -272px;
+    }
+
+    .menu__central--courses{
+        width: 680px;
+        margin-left: -272px;
+        padding: 1em; 
+    }
+
+    .menu__central--courses--option3{
+        padding: 0;
+    }
+
+    .menu__central--recommendations--texto{
+        width: 386px;
+    }
+
+    .menu__central--myservices--portfolio{
+        width: 500px;
+        margin-left: -272px;
+    }
+
+    .menu__central--lista{
+        margin-right: 243px;
+    }
+
+
 }
