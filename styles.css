@@ -49,9 +49,7 @@ body {
     align-items: center;
     display: flex;
     margin-top: 2em;
-
 }
-
 
 .container__imagem--lateral {
     width: 150px;
@@ -152,9 +150,10 @@ body {
     width: 154px;
 }
 
-.menu__central--bannner {
+.menu__central--banner {
     font-size: 48px;
     width: 500px;
+    font-weight: bold;
 }
 
 .menu__central--texto {
@@ -169,14 +168,10 @@ body {
     padding: 3em 0 3em 3em;
 }
 
-.menu__central--bannner-texto {
+.menu__central--banner-texto {
     padding: 2em 0;
     color: var(--cinza);
     width: 424px;
-}
-
-.menu__central--bannner {
-    font-weight: bold;
 }
 
 .menu__central--segundalinha {
@@ -227,8 +222,7 @@ body {
     height: 225px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .menu__central--itens {
@@ -405,13 +399,10 @@ body {
     font-size: 18px;
 }
 
-
 .menu__central--courses--option {
     display: flex;
     width: 904px;
 }
-
-
 
 .menu__central--courses__image {
     margin-left: 1em;
@@ -454,6 +445,7 @@ body {
     width: 970px;
     padding-bottom: 3em;
     justify-content: center;
+    align-items: center;
 }
 
 .menu__central--lista--item--1 {
@@ -547,7 +539,6 @@ body {
     text-decoration: none;
     color: black;
     margin-left: 1.5em;
-
 }
 
 .menu__central--contact--container--title {
@@ -609,7 +600,6 @@ body {
 }
 
 .menu__central--map {
-   
     margin: 4em 0;
 }
 
@@ -634,27 +624,23 @@ body {
 .menu__central--rodape--direitos--texto {
     font-size: 15px;
     text-align: center;
-    
 }
 
-.menu__direta--itens {
+.menu__direita--itens {
     width: 108px;
     height: 1315px;
     background-color: #FAFAFA;
-}
-
-.menu__direta--itens {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-left: 1em;
 }
 
-.menu__direta--itens--lua {
+.menu__direita--itens--lua {
     padding: 3em 0;
 }
 
-.menu__direta--itens--itens {
+.menu__direita--itens--itens {
     padding-top: 10em;
 }
 
@@ -662,7 +648,7 @@ body {
     margin-left: 1em;
 }
 
-.menu__direta--itens--home {
+.menu__direita--itens--home {
     display: flex;
     flex-direction: column;
     padding-top: 11em;
@@ -670,7 +656,7 @@ body {
     align-items: center;
 }
 
-.menu__direta--itens--home--icones {
+.menu__direita--itens--home--icones {
     background-color: var(--cor-de-fundo);
     height: 40px;
     width: 40px;
@@ -679,10 +665,9 @@ body {
     align-items: center;
     display: flex;
     margin-top: 2em;
-
 }
 
-.menu__direta--itens--home--icones--cinza {
+.menu__direita--itens--home--icones--cinza {
     filter: opacity(0.5);
 }
 
@@ -714,7 +699,7 @@ body {
     opacity: 1.0;
 }
 
-.menu__direta--itens--home--icones--cinza:hover {
+.menu__direita--itens--home--icones--cinza:hover {
     filter: opacity(1.0);
 }
 
@@ -760,7 +745,8 @@ body {
     position: absolute;
     color: white;
     font-size: 12px;
-}	
+}
+
 .balao{
     background: black; 
     position:relative; 
@@ -785,7 +771,7 @@ body {
     -webkit-transform:rotate(45deg);
 }
 
-.menu__direta--itens--home--legenda {
+.menu__direita--itens--home--legenda {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -814,4 +800,333 @@ body {
     background-image: url("./img/imagemPerfilSemFundo.png");
     background-size: cover;
     background-position: center;
+}
+
+@media screen and (max-width: 390px) {
+    .container__principal{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu__central{
+        margin-left: 0;
+        width: 337px;
+        margin-top: 1em;
+    }
+
+    .menu__central--textolateral{
+        padding: 1.5em 0 1.5em 1.0em;
+    }
+
+    .menu__central--banner, .frontend__amarelo, .frontend__amarelo--complemento {
+        font-size: 20px;
+        width: auto;
+    }
+
+    .menu__central--banner{
+        padding-bottom: 0.1em;
+    }
+
+    .menu__central--banner-texto{
+        width: auto;
+        font-size: 12px;
+    }
+
+    .frontend__amarelo{
+        width: max-content;
+    }
+
+    .frontend__amarelo--complemento{
+        padding-left: 0.1em;
+    }
+
+    .button__hireme{
+        width: 70%;
+    }
+
+    .menu__central--fotoperfil{
+        height: 68%;
+        align-self: end;
+        margin-right: 3.2em;
+    }
+
+    .menu__central--container{
+        width: 390px;
+        height: 230px;
+    }
+
+    .menu__lateral{
+        height: auto;
+    }
+
+    .menu__central--myservices{
+        width: 100%;
+    }
+
+    .menu__central--info{
+        width: 100%;
+    }
+
+    .menu__central--itens{
+        flex-direction: column;
+        width: auto;
+    }
+
+    .menu__central--itens--box{
+        width: 337px;
+        margin-bottom: 1em;
+    }
+
+    .menu__central--recommendations{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu__central--recommendations--info{
+        margin-top: 1em;
+        display: flex;
+        align-items: center;
+        width: 337px;
+    }
+
+    .menu__central--courses{
+        padding: 0;
+        width: 337px;
+    }
+
+    .menu__central--courses--option{
+        flex-direction: column;
+        width: auto;
+    }
+
+    .menu__central--courses--option2{
+        width: auto;
+    }
+
+    .menu__central--courses--option3{
+        padding: 1em 0;
+        width: 337px;
+        padding: 2em 0 0 0;
+    }
+
+    .menu__central--courses--txt {
+        width: auto;
+        margin-right: 1em;
+        text-align: left;
+        font-size: 13px;
+    }
+
+    .menu__central--courses--description{
+        width: auto;
+        margin: 1em;
+    }
+
+    .menu__central--courses--student{
+        margin-top: 1em;
+    }
+
+    .menu__central--courses--option3{
+        padding: 1.0em 0 0 0;
+    }
+
+    .menu__central--courses--school{
+        font-weight: bold;
+    }
+
+    .menu__central--courses--school--titulo{
+        font-weight: bold;
+    }
+
+    .menu__central--courses--type{
+        font-size: 13px;
+    }
+    
+    .menu__central--lista{
+        flex-direction: column;
+        width: 337px;
+        align-items: center;
+    }
+
+    .menu__central--lista--item{
+        padding: 0.5em 0;
+    }
+
+    .menu__central--portfolio{
+        width: 337px;
+        height: auto;
+        justify-content: center;
+    }
+
+    .menu__central--portfolio--images{
+        padding: 0.5em 0;
+    }
+
+    .menu__central--contact--container--title{
+        width: auto;
+        font-size: 20px;
+    }
+
+    .menu__central--contact{
+        flex-direction: column;
+        width: auto;
+    }
+
+    .menu__central--contact--container--title--teste{
+        width: 337px;
+    }
+
+    .menu__central--contact--complete{
+        width: 337px;
+    }
+
+    .menu__central--contact--complete--title{
+        width: auto;
+        align-self: normal;
+    }
+
+    .menu__central--contact--complete--box {
+        width: -webkit-fill-available;
+    }
+
+    .menu__central--contact--banner--info{
+        width: auto;
+    }
+
+    .menu__central--map--iframe{
+        width: 337px;
+    }
+
+    .menu__central--rodape--direitos--container{
+        width: 337px;
+    }
+
+    .menu__direita--itens{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .menu__central {
+        width: 480px;
+    }
+    
+    .menu__central--container {
+        width: 480px;
+    }
+
+    .menu__central--textolateral{
+        padding: 0.5em;
+        width: 240px;
+    }
+
+    .menu__central--fotoperfil{
+        width: 240px;
+        height: 40%;
+        display: flex;
+        align-self: end;
+    }
+
+    .menu__central--banner{
+        font-size: 30px;
+        width: 200px;
+    }
+
+    .frontend__amarelo--complemento{
+        font-size: 30px;
+    }
+
+    .frontend__amarelo{
+        font-size: 30px;
+    }
+
+    .menu__central--banner-texto{
+        font-size: 15px;
+    }
+
+    .menu__central--segundalinha {
+        width: 300px;
+    }
+
+    .menu__central--container{
+        height: 340px;
+        padding-left: 1em;
+    }
+
+    .menu__direita{
+        display: none;
+    }
+
+    .menu__central--myservices{
+        width: auto;
+    }
+
+    .menu__central--titulo{
+        padding: 1em;
+    }
+
+    .menu__central--itens {
+        width: auto;
+        justify-content: center;
+    }
+
+    .menu__central--itens--box{
+        margin-bottom: 1em;
+    }
+
+    .menu__central--recommendations{
+        width: 500px;
+        margin-right: 63px;
+        justify-content: end;
+    }
+
+    .menu__central--recommendations--info{
+        width: 260px;
+    }
+
+    .menu__central--recommendations--info--class{
+        width: 210px;
+    }
+
+    .menu__central--recommendations--texto {
+        font-size: 16px;
+        width: auto;
+    }
+
+    .menu__central--education{
+        display: flex;
+        justify-content: center;
+        width: 768px;
+    }
+
+    .menu__central--myservices--educacion{
+        width: 500px;
+        margin-left: -272px;
+    }
+
+    .menu__central--courses{
+        width: 680px;
+        margin-left: -272px;
+        padding: 1em; 
+    }
+
+    .menu__central--courses--option3{
+        padding: 0;
+    }
+
+    .menu__central--recommendations--texto{
+        width: 386px;
+    }
+
+    .menu__central--myservices--portfolio{
+        width: 500px;
+        margin-left: -272px;
+    }
+
+    .menu__central--lista{
+        margin-right: 243px;
+    }
+
+
 }
